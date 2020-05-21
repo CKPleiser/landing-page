@@ -1,0 +1,109 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 70%;
+  display: grid;
+  grid-gap: 40px;
+  margin: 0 auto;
+}
+
+/* Utilities */
+h1 {
+  color: #1c1e2e;
+  font-size: 40px;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem !important;
+}
+
+.mb-1 {
+  margin-bottom: 1rem !important;
+}
+
+.mb-2 {
+  margin-bottom: 2rem !important;
+}
+
+.mb-3 {
+  margin-bottom: 3rem !important;
+}
+
+.pb-3 {
+  padding-bottom: 1rem;
+}
+
+.pt-3 {
+  padding-top: 1rem;
+}
+
+/* Header */
+
+.brand {
+  display: inline-block;
+  box-sizing: border-box;
+  padding-top: 0.3125 rem;
+  padding-bottom: 0.3125 rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+}
+
+.logo {
+  vertical-align: middle;
+}
+
+.logo-text {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* Hero*/
+
+.hero-section {
+  display: grid;
+  grid-gap: 20px;
+  align-items: center;
+  grid-template-areas: "hero-text hero-image ";
+}
+
+.hero-image {
+  display: grid;
+  grid-area: hero-image;
+  padding: 1.2rem;
+}
+
+.header-text {
+  display: grid;
+  grid-area: header-text;
+  padding: 1.2rem;
+}
+
+.sub-headline {
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+.btn {
+  font-weight: 600;
+  padding: 0.875rem 2.5rem;
+  transition: all 0.4s ease-in-out;
+  border-radius: 2rem;
+  border: none;
+}
+
+.btn-primary {
+  background: #ed6524;
+  color: white;
+}
+
+.btn-outline {
+  background: white;
+  border: 2px solid #ed6524;
+  color: #ed6524;
+}
